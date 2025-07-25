@@ -1,0 +1,12 @@
+:root {
+  --color-primary: #FF9900;
+  --color-text: #2F281E;
+  --font-primary: "Montserrat", sans-serif;
+  --font-secondary: "Poppins", sans-serif;
+}
+
+.container {
+  max-width: 1234px;
+  padding-inline: 17px;
+  margin: 0 auto;
+}

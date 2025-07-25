@@ -1,0 +1,53 @@
+header {
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+#hero {
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+#features {
+  .features {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+#professionals {
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+#managers {
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+#marketers {
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+footer {
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+}

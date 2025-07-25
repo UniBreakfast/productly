@@ -1,4 +1,6 @@
 header {
+  height: 80px;
+
   .container {
     display: flex;
     align-items: center;
@@ -7,15 +9,58 @@ header {
     nav>ul {
       display: flex;
       gap: 20px;
+
+      a {
+        &:hover {
+          color: var(--color-primary);
+        }
+      }
+    }
+
+    .buttons {
+      display: flex;
+      gap: 32px;
+
+      button {
+        font-family: inherit;
+        color: inherit;
+        font-size: inherit;
+        font-weight: 600;
+        border: 1px solid #BCD0E5;
+        width: 110px;
+        padding-block: 13px;
+      }
     }
   }
 }
 
 #hero {
   .container {
+    padding-block: 70px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    .content {
+      max-width: 500px;
+
+      h2 {
+        font-size: 44px;
+        font-weight: bold;
+      }
+
+      p {
+        font-size: 18px;
+        line-height: 28px;
+        margin-block: 30px 20px;
+      }
+
+      button {
+        width: 180px;
+        height: 50px;
+        padding: 13px;
+      }
+    }
   }
 }
 
